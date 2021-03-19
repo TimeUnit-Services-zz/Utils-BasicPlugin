@@ -21,10 +21,11 @@ public class BoardProvider implements ScoreGetter {
             String.valueOf(Bukkit.getOnlinePlayers().size());
 
             for (String line : CC.translate(Utils.getInstance().getConfig().getStringList("SCOREBOARD.CONFIG"))) {
-                scores.add(CC.translate(line.replace("%playername%", player.getName()).replace("%tps%", formatBasicTps(tps)).replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size()))));
-
-            }
-
+                scores.add(CC.translate(line.replace("%playername%", player.getName())
+                        .replace("%tps%", formatBasicTps(tps))
+                        .replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size())
+                        .replace("%arrow%", "»"))));
+        }
     }
 }
 
