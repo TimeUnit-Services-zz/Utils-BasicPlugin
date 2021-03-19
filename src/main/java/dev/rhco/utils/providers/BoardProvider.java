@@ -26,7 +26,13 @@ public class BoardProvider implements ScoreGetter {
                         .replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size())
                         .replace("%arrow%", "»"))
                         .replace("%yes%", "✓"))
-                        .replace("%no%", "✘"));
+                        .replace("%no%", "✘")
+                        .replace("%star%", "★")
+                        .replace("%crown%", "♕")
+                        .replace("%sad%", "☹")
+                        .replace("%bigarrow%", "➤")
+                        .replace("%airplane%", "✈")
+                        .replace("%arrowlittle%", "▸"));
         }
     }
 }
