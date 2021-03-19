@@ -25,7 +25,8 @@ public class BoardProvider implements ScoreGetter {
                         .replace("%tps%", formatBasicTps(tps))
                         .replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size())
                         .replace("%arrow%", "»"))
-                        .replace("%yes%", "✓")));
+                        .replace("%yes%", "✓"))
+                        .replace("%no%", "✘"));
         }
     }
 }
