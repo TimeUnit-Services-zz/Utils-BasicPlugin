@@ -1,0 +1,5 @@
+main: dev.rhco.utils.Utils
+name: Utils
+author: rHCO
+version: 1.0-SNAPSHOT
+# This plugin is open source for those who want to do it to their liking, updates will be made every day, stay tuned to GitHub

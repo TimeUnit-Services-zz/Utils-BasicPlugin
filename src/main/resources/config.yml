@@ -1,0 +1,8 @@
+SCOREBOARD: #Supports more than 32 characters
+  TITLE: '&6&lExample &7| &fUtils'
+  CONFIG:
+   - '&7&m--------------------'
+   - '&eYour Name&7: &f%playername%'
+   - '&eOnline&7: &f%online%'
+   - '&eTps&7: &f%tps%'
+   - '&d&7&m--------------------'
