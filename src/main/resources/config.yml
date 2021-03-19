@@ -72,4 +72,10 @@ Tablist:
     Line18: ' '
     Line19: ' '
     Line20: ' '
+
+NAMETAGS:
+  FAMOUS: 'nametag.famous'
+  YOUTUBER: 'nametag.youtuber'
+  MINIYT: 'nametag.miniyt'
+  DONATOR: 'nametag.donator'
 # This plugin is open source for those who want to do it to their liking, updates will be made every day, stay tuned to GitHub

@@ -2,6 +2,8 @@ package dev.rhco.utils;
 
 import dev.rhco.utils.board.ScoreboardManager;
 import dev.rhco.utils.board.config.ScoreboardProviders;
+import dev.rhco.utils.nametags.Nametag;
+import dev.rhco.utils.providers.NametagProvider;
 import dev.rhco.utils.tablist.Azazel;
 import dev.rhco.utils.tablist.tab.example.TabProvider;
 import dev.rhco.utils.utilities.ConfigFile;
@@ -19,6 +21,7 @@ public class Utils extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         this.ConfigFile = new ConfigFile();
+        new Nametag(this, new NametagProvider());
         new Azazel(this, new TabProvider());
         ScoreboardManager.init();
         ScoreboardManager.setConfiguration(ScoreboardProviders.create());
