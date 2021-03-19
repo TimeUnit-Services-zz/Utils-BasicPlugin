@@ -7,6 +7,7 @@ SCOREBOARD: #Supports more than 32 characters
    - '&eTps&7: &f%tps%'
    - '&eIcons&7: &f%d_arrow% %yes% %no% %star% %crown% %sad% %bigarrow% %airplane% %arrowlittle%'
    - '&d&7&m--------------------'
+
 Tablist:
   Left:
     Line1: ' '
@@ -71,3 +72,4 @@ Tablist:
     Line18: ' '
     Line19: ' '
     Line20: ' '
+# This plugin is open source for those who want to do it to their liking, updates will be made every day, stay tuned to GitHub

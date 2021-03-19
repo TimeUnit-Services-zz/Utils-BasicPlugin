@@ -1,4 +1,4 @@
-package dev.lazze.hcf.board.utils;
+package dev.rhco.utils.board.utils;
 
 import java.text.*;
 import java.util.function.*;

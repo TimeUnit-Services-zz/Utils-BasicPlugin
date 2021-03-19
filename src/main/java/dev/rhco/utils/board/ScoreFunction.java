@@ -1,6 +1,7 @@
 package dev.rhco.utils.board;
 
-import dev.lazze.hcf.board.utils.TimeUtilsScoreboard;
+
+import dev.rhco.utils.board.utils.TimeUtilsScoreboard;
 
 public interface ScoreFunction<T>
 {
