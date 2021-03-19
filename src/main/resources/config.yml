@@ -1,9 +1,9 @@
 SCOREBOARD: #Supports more than 32 characters
   TITLE: '&6&lExample &7| &fUtils'
-  CONFIG: # Use %arrow%, %yes%, %no%, %star%, %crown%, %sad%, %bigarrow%, %airplane% and %arrowlittle%
+  CONFIG: # Use %d_arrow%, %yes%, %no%, %star%, %crown%, %sad%, %bigarrow%, %airplane% and %arrowlittle%
    - '&7&m--------------------'
    - '&eYour Name&7: &f%playername%'
    - '&eOnline&7: &f%online%'
    - '&eTps&7: &f%tps%'
-   - '&eIcons&7: &f%arrow% %yes% %no% %star% %crown% %sad% %bigarrow% %airplane% %arrowlittle%'
+   - '&eIcons&7: &f%d_arrow% %yes% %no% %star% %crown% %sad% %bigarrow% %airplane% %arrowlittle%'
    - '&d&7&m--------------------'

@@ -23,16 +23,16 @@ public class BoardProvider implements ScoreGetter {
             for (String line : CC.translate(Utils.getInstance().getConfig().getStringList("SCOREBOARD.CONFIG"))) {
                 scores.add(CC.translate(line.replace("%playername%", player.getName())
                         .replace("%tps%", formatBasicTps(tps))
-                        .replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size())
-                        .replace("%arrow%", "»"))
-                        .replace("%yes%", "✓"))
+                        .replace("%online%", String.valueOf(Bukkit.getOnlinePlayers().size()))
+                        .replace("%d_arrow%", "»")
+                        .replace("%yes%", "✓")
                         .replace("%no%", "✘")
                         .replace("%star%", "★")
                         .replace("%crown%", "♕")
                         .replace("%sad%", "☹")
                         .replace("%bigarrow%", "➤")
                         .replace("%airplane%", "✈")
-                        .replace("%arrowlittle%", "▸"));
+                        .replace("%arrowlittle%", "▸")));
         }
     }
 }
