@@ -5,4 +5,5 @@ SCOREBOARD: #Supports more than 32 characters
    - '&eYour Name&7: &f%playername%'
    - '&eOnline&7: &f%online%'
    - '&eTps&7: &f%tps%'
+   - '&eIcons&7: &f%arrow% %yes% %no% %star% %crown% %sad% %bigarrow% %airplane% %arrowlittle%'
    - '&d&7&m--------------------'
